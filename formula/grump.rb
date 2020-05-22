@@ -7,7 +7,7 @@ class Grump < Formula
 
   if OS.mac?
     url "https://github.com/dhulihan/grump/releases/download/0.0.4/grump_0.0.4_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
-    sha256 "16b9de9c7c71942378d92a5649856ee8bffd82a440804d057f695d7ae11d7d2d"
+    sha256 "e33effe46a2ab51c0676d56b7a25544a426fa5f725c7e08d5015522fcc6bc019"
   elsif OS.linux?
   end
 
