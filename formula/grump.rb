@@ -2,12 +2,12 @@
 class Grump < Formula
   desc ""
   homepage "https://github.com/dhulihan/grump"
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dhulihan/grump/releases/download/0.0.5/grump_0.0.5_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
-    sha256 "f49b398b47b102ab5c01338763b7f69dc0235a79e0574a50b6332c1ac39e2b04"
+    url "https://github.com/dhulihan/grump/releases/download/0.0.6/grump_0.0.6_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
+    sha256 "2a6bb1ab0377e53a023f8c2eb433459ed10736cffc0d0418330b4d3c2a63fbed"
   elsif OS.linux?
   end
 
